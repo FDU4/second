@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile {
+    width: 1280px;
+    margin: 0 auto;
+    display: block;
+}
+.section {
+    padding: 50px;
+    }
+.section_white {
+    background-color: #445161;
+}
+
+.main-article_white {
+    color: white;
+}
+
+.main-article {
+
+}
+.section_img {
+ width: 40%;
+}
+.main-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.main-article_title {
+    font-size: 60px;
+    margin-bottom: 50px;
+    }
+.main-article_list {
+    font-size: 20px;
+}
+.main-article_item {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.main-article_item::before {
+    content: url('../assets/checkb.png');
+    margin-right: 10px;
+}
